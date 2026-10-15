@@ -1,0 +1,18 @@
+{
+  "slug": "detection-bench",
+  "name": "Detection Bench",
+  "field": "Security analytics & detection",
+  "roles": "Junior Detection Engineer \u00b7 Security Data Analyst",
+  "headline": "Measure what your rule misses.",
+  "description": "Replay two thresholds against the same labeled events and inspect every false alert and miss.",
+  "accent": "#3c567d",
+  "pale": "#e9edf5",
+  "display": "Space Grotesk",
+  "action": "Run paired replay",
+  "guide": [
+    "Compare thresholds 3 and 5. Inspect the false-positive and missed-event tradeoff.",
+    "Change the time window and rerun the same labels.",
+    "Use the evidence view to find the exact events behind each TP, FP, FN, and TN. Null means a metric had no denominator."
+  ],
+  "limits": "This is event-level replay on synthetic labels. It is not a production detection benchmark, an incident-level recall estimate, or a SIEM integration."
+}
