@@ -4,7 +4,11 @@ Replay two thresholds against the same labeled events and inspect every false al
 
 **Field:** Security analytics & detection  
 **Relevant roles:** Junior Detection Engineer · Security Data Analyst  
-**Status:** working prototype; hosting status is tracked separately.
+**Status:** working prototype, published on GitHub and Vercel.
+
+[**Open the live interactive lab**](https://detection-bench.vercel.app/)
+
+The hosted lab runs synthetic exercises in your browser. See the scope below for local integration exercises and limitations.
 
 ## Run
 
